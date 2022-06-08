@@ -1,6 +1,5 @@
 services:
-  flyapi:
-  fastapi:
+  fastapi: flyapi
     public: true
     build: .
     replicas: 1
