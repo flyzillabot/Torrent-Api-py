@@ -1,4 +1,5 @@
 services:
+  flyapi:
   fastapi:
     public: true
     build: .
